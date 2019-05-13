@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/api/test', function(req, res, next) {
   // res.render('index', { title: 'Express' });
-  res.status(200).json({success:false,message:"Success developv2"})
+  res.status(200).json({success:false,message:"Success master"})
 });
 
 
